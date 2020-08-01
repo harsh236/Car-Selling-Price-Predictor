@@ -60,7 +60,6 @@ def main():
                 st.warning("You will be not able to sell this car !!")
             else:
                 st.success("You can sell the car for {} lakhs 🙌".format(output))
-		st.balloons()
         except:
             st.warning("Opps!! Something went wrong\nTry again")
             
